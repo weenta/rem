@@ -292,3 +292,24 @@ by 2016.12.06
 思而不学则殆，优化了一下此方案[前端：『REM』手机屏幕高清适配方案](./HD_ADAPTER.md)。
 
 by 2016.12.14
+
+- phone6s(750 dpr2) 1rem = 10px
+```js
+@media screen and (min-width: 320px) {html{font-size:8.53px;}}
+@media screen and (min-width: 360px) {html{font-size:9.6px;}}
+@media screen and (min-width: 375px) {html{font-size:10px;}}
+@media screen and (min-width: 400px) {html{font-size:10.66px;}}
+@media screen and (min-width: 414px) {html{font-size:11.04px;}}
+@media screen and (min-width: 440px) {html{font-size:11.73px;}}
+@media screen and (min-width: 480px) {html{font-size:12.8px;}}
+@media screen and (min-width: 520px) {html{font-size:13.87px;}}
+@media screen and (min-width: 560px) {html{font-size:14.93px;}}
+@media screen and (min-width: 600px) {html{font-size:16.0px;}}
+@media screen and (min-width: 640px) {html{font-size:17.07px;}}
+@media screen and (min-width: 680px) {html{font-size:18.13px;}}
+@media screen and (min-width: 720px) {html{font-size:19.2px;}}
+@media screen and (min-width: 750px) {html{font-size:20.0px;}}
+@media screen and (min-width: 800px) {html{font-size:21.33px;}}
+@media screen and (min-width: 960px) {html{font-size:25.6px;}}
+```
+
